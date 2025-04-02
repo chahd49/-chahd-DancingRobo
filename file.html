@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+
+.stage {
+top: 150px;
+font-size: 40px;
+text-align: center;
+left: 0px;
+top: 0px;
+width: 90%;
+height: 800px;
+background: #ddd;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wholebody {
+background: red;
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 10px;
+margin-top: -20px;
+width: 240px;
+height: 400px;
+margin-top: 160px;
+
+animation: geeks 17s infinite;
+}
+
+@keyframes geeks {
+0% {
+margin-left: 30%;
+}
+
+20% {
+margin-left: -0.1%;
+}
+
+35% {
+margin-left: 70%;
+}
+
+45% {
+margin-left: 30%;
+}
+
+51% {
+margin-left: -0.1%;
+}
+
+54% {
+margin-left: 70%;
+}
+
+57% {
+margin-left: 30%;
+}
+
+60% {
+margin-left: -0.1%;
+}
+
+63% {
+margin-left: 70%;
+}
+
+66% {
+margin-left: 60%;
+}
+
+69% {
+margin-left: 70%;
+}
+
+92% {
+margin-left: 14%;
+}
+
+100% {
+margin-left: 0%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.head {
+background: white;
+width: 50%;
+height: 60px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+background: black;
+width: 50%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+}
+
+
+.left-arm {
+background: black;
+width: 50%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+
+animation: leftarm 17s infinite;
+}
+
+
+@keyframes leftarm {
+0% {
+margin-left: 30%;
+transform: rotate(50deg);
+}
+
+20% {
+margin-left: -0.1%;
+}
+
+35% {
+margin-left: 70%;
+}
+
+45% {
+margin-left: 30%;
+}
+
+51% {
+margin-left: -0.1%;
+}
+
+54% {
+margin-left: 70%;
+}
+
+57% {
+margin-left: 30%;
+}
+
+60% {
+margin-left: -0.1%;
+}
+
+63% {
+margin-left: 70%;
+}
+
+66% {
+margin-left: 60%;
+}
+
+69% {
+margin-left: 70%;
+}
+
+92% {
+margin-left: 14%;
+}
+
+100% {
+margin-left: 0%;
+}
+
+}
+</style>
+</head>
+<body>
+<div class="stage">
+<video width="320" height="240" controls autoplay>
+  <source src="dance.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="wholebody">
+<div class="head">
+</div>
+<div class="body">
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
