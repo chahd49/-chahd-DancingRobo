@@ -62,20 +62,20 @@ margin-left: 60%;
 margin-left: 0.1%;
 }
 
-24.75% {
+35.57% {
 margin-left: 0.1%;
 }
 
-24.75% {
+77.21% {
 margin-left: 0.1%;
 }
 
 83.29% {
-margin-left: 60%;
+margin-left: 0.1%;
 }
 
 94.96% {
-margin-left: 0.1%;
+margin-left: 60%;
 }
 
 100% {
@@ -98,12 +98,96 @@ background: red;
 margin-left: 10px;
 margin-top: -20px;
 width: 50px;
-height: 100px;
+height: 150px;
 margin-right: 160px;
 border-radius: 50px 50px;
 translate: -100% 0%;
+transform-origin: 100% 0%;
+animation: wave 17s infinite;
 
 }
+@keyframes wave {
+0% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+12.32% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+19.05% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+25.03% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+31.57% {
+  margin-left: 0%;
+  rotate: 100deg;
+}
+
+36.8% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+42.21% {
+  margin-left: 0%;
+  rotate: 100deg;
+}
+
+47.81% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+52.94% {
+  margin-left: 0%;
+  rotate: 100deg;
+}
+
+60.23% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+60.23% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+65.36% {
+  margin-left: 0%;
+  rotate: 100deg;
+}
+
+72.47% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+82.91% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+90.87% {
+  margin-left: 0%;
+  rotate: 0deg;
+}
+
+100% {
+margin-left: 0%;
+}
+}
+
+
 
 
 .arm2 {
@@ -113,9 +197,9 @@ background: red;
 /* background: #ddd; */
 
 margin-left: 10px;
-margin-top: -20px;
+margin-top: -150px;
 width: 50px;
-height: 100px;
+height: 150px;
 margin-left: 160px;
 border-radius: 50px 50px;
 translate: -100% 0%;
@@ -123,6 +207,47 @@ translate: -100% 0%;
 }
 
 
+
+
+
+
+
+
+
+
+
+.leg {
+background: rgb(0, 255, 85);
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 50px;
+margin-top: 10px;
+width: 50px;
+height: 150px;
+margin-right: 160px;
+border-radius: 50px 50px;
+translate: -100% 0%;
+
+}
+
+
+.leg2 {
+background: rgb(174, 0, 255);
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 120px;
+margin-top: -150px;
+width: 50px;
+height: 150px;
+margin-right: 160px;
+border-radius: 50px 50px;
+translate: -100% 0%;
+
+}
 
 
 
@@ -189,6 +314,8 @@ Your browser does not support the video tag.
 <div class="body">
   <div class="arm"></div>
   <div class="arm2"></div>
+  <div class="leg"></div>
+  <div class="leg2"></div>
 </div>
 </div>
 </div>
