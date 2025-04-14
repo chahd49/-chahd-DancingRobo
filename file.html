@@ -341,7 +341,25 @@ translate: -100% 0%;
 
 
 
+.eye {
+background: rgb(29, 17, 0);
+width: 20%;
+height: 20px;
+translate: 40% 60%;
+margin-bottom: -400px;
+margin-left: 50;
+border-radius: 50%;
+}
 
+.eye2 {
+background: rgb(29, 17, 0);
+width: 20%;
+height: 20px;
+translate: 350% 1960%;
+margin-bottom: 400px;
+margin-left: 50;
+border-radius: 50%;
+}
 
 
 
@@ -350,10 +368,11 @@ translate: -100% 0%;
 
 
 .head {
-background: white;
+background: rgb(253, 224, 181);
+z-index: 1;
 width: 50%;
 height: 60px;
-margin-top: 10px;
+margin-bottom: 20px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 50%;
@@ -376,6 +395,7 @@ border-radius: 50%;
 
 .body {
 background: black;
+z-index: -1;
 width: 50%;
 height: 200px;
 margin-left: auto;
@@ -398,6 +418,8 @@ Your browser does not support the video tag.
 <div class="wholebody">
 
 <div class="head">
+  <div class="eye"></div>
+  <div class="eye2"></div>
 </div>
 <div class="body">
   <div class="arm"></div>
